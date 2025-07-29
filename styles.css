@@ -1,0 +1,36 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+.main-container div {
+    flex: 1;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.main-container .one {
+    background-color: rgb(107, 143, 155);
+    padding: 300px;
+}
+
+.main-container .two {
+    background-color: rgb(254, 254, 254);
+    padding: 200px;
+}
+
+.main-container .three {
+    background-color: rgb(204, 204, 204);
+    padding: 200px;
+}
+
+.main-container .four {
+    background-color: rgb(255, 255, 255);
+    padding: 100px;
+}
+
+.main-container .five {
+    background-color: rgb(0, 0, 0);
+    padding: 50px;
+}
