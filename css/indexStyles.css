@@ -10,7 +10,7 @@
 .headerLinks div{
     border: 1px ;
     margin: 20px;
-    margin-top: 1px;
+    margin-top: 10px;
     margin-bottom: 1px;
     padding: 5px 10px;
     background-color: #132639;
@@ -48,14 +48,47 @@
 
 .MainBody2 div {  
     margin: 20px;
-    margin-top: 100px;
+    margin-top: 60px;
     padding: 10px;
     border-radius: 5px;
     width: 300px;
-    text-align: center;
+    text-align: left;
     gap: 50px;
 }
 
 .MainBody2 .mB2Text{
     margin-left: -270px;
 }
+
+.MainBody3 {
+    display: flex;
+    align-items: center;
+    background-color: #d6d6d6;
+    width: 1400px;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+}
+
+.MainBody3 div {
+    margin: 20px;
+    margin-top: 40px;
+    padding: 10px solid #132639;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    gap: 50px;
+    font-size: 20px;
+    
+}
+.mB3Text {
+    font-size: 30px;     
+    border: #d6d6d6 20px solid;
+    border-top: #d6d6d6 60px solid;
+    border-bottom: 20px solid #d6d6d6;
+    width: 1400px;
+    text-align: center;
+    background-color: #d6d6d6;
+}
+
+
